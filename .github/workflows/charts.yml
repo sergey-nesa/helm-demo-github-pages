@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   release:
@@ -40,7 +40,7 @@ jobs:
         shell: bash
         working-directory: dest
         run: |
-          helm repo index . --url https://raw.githubusercontent.com/testForn8n/helm_charts_test/gh-pages/
+          helm repo index . --url https://raw.githubusercontent.com/sergey-nesa/helm-demo-github-pages/gh-pages/
           git config user.name "Helm Updater"
           git config user.email "actions@users.noreply.github.com"
           git add $(git ls-files -o --exclude-standard)
