@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  fastapi:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-08-31T14:15:27.349711033Z"
+    description: A Helm chart for Kubernetes
+    digest: 339e1df79d62b6ec4dd82282afba8292d1afb18f2f77507e17982ee60901a569
+    name: fastapi
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sergey-nesa/helm-demo-github-pages/gh-pages/fastapi-0.1.0.tgz
+    version: 0.1.0
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-08-31T14:15:27.350025337Z"
+    description: A Helm chart for Kubernetes
+    digest: 88ed34d929885cd553e6f943c366149a204846b74584e86ae49bd5acb591c781
+    name: hello-world
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sergey-nesa/helm-demo-github-pages/gh-pages/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-31T14:15:27.348962722Z"
